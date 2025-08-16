@@ -1,0 +1,16 @@
+[package]
+name = "newSmartContract"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule='0x9c15302a0c3c5b9ee7e3beb9b73ef1494fe0a2ce4605976eb385495849dd5b07'
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
